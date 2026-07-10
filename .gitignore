@@ -1,0 +1,11 @@
+# 機密・設定ファイルの誤コミット防止（2026-07-11 棚卸しで追加）
+.env
+.env.*
+*token*
+config.json
+*.pickle
+*.pem
+*.key
+
+# macOS
+.DS_Store
